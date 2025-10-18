@@ -1,0 +1,88 @@
+ {
+  "calistenia": {
+    "definicao": "A calistenia é uma prática de treinamento físico que utiliza o peso do próprio corpo para executar exercícios, visando desenvolver força, resistência, flexibilidade e controle corporal. Pode ser feita em qualquer lugar, sem necessidade de equipamentos caros.",
+    "vertentes": {
+      "streetlift": {
+        "descricao": "Vertente focada em movimentos de força e potência usando barras, paralelas e equipamentos básicos. Exercícios incluem pull-ups, dips, muscle-ups, front lever e planche.",
+        "objetivos": [
+          "Aumento de força nas regiões superiores do corpo (peito, costas, ombros e braços)",
+          "Controle motor para movimentos dinâmicos e estáticos",
+          "Desenvolvimento de poder muscular para movimentos explosivos"
+        ],
+        "exemplos": [
+          "pull-ups",
+          "dips",
+          "muscle-ups",
+          "front lever",
+          "planche"
+        ]
+      },
+      "weightlight": {
+        "descricao": "Vertente que foca no uso leve do peso corporal, combinando exercícios funcionais com resistência moderada e baixo impacto, ideal para iniciantes ou treino equilibrado.",
+        "objetivos": [
+          "Melhorar mobilidade e flexibilidade",
+          "Aprimorar controle corporal e resistência com baixo impacto",
+          "Tonificar e definir músculos focando na estética e bem-estar"
+        ],
+        "exemplos": [
+          "exercícios com bandas elásticas",
+          "movimentos funcionais leves",
+          "treinos com halteres leves"
+        ]
+      },
+      "endurance": {
+        "descricao": "Vertente dedicada ao aumento da resistência muscular e cardiovascular, com exercícios de alta repetição e média a baixa intensidade, para prolongar o tempo de atividade física.",
+        "objetivos": [
+          "Aumentar resistência muscular e cardiovascular",
+          "Realizar repetições altas sem perder a forma",
+          "Desenvolver resistência mental"
+        ],
+        "exemplos": [
+          "flexões em séries longas",
+          "pull-ups de alta repetição",
+          "dips em alta repetição"
+        ]
+      },
+      "dynamics": {
+        "descricao": "Vertente que envolve movimentos rápidos, explosivos e de grande amplitude, combinando força, agilidade e coordenação para melhorar potência e habilidades atléticas.",
+        "objetivos": [
+          "Desenvolver explosão muscular e potência",
+          "Aprimorar coordenação e controle em movimentos rápidos",
+          "Aumentar habilidade em movimentos de alta intensidade"
+        ],
+        "exemplos": [
+          "muscle-up dinâmico",
+          "saltos explosivos",
+          "bar muscle-up"
+        ]
+      },
+      "static": {
+        "descricao": "Vertente focada em posturas estáticas que exigem força de estabilização e controle corporal, como planche, front lever, back lever, l-sit e human flag.",
+        "objetivos": [
+          "Aprimorar controle do corpo em posturas desafiadoras",
+          "Desenvolver força e resistência do core",
+          "Aumentar estabilidade articular e força muscular local"
+        ],
+        "exemplos": [
+          "planche",
+          "front lever",
+          "back lever",
+          "l-sit",
+          "human flag"
+        ]
+      }
+    },
+    "chatbot": {
+      "especializacao": "Este chatbot é um especialista em calistenia, com profundo conhecimento nas vertentes Streetlift, Weightlight, Endurance, Dynamics e Static.",
+      "funcionalidades": [
+        "Fornecer treinos personalizados para cada vertente e nível do usuário",
+        "Explicar progressões e regressões de exercícios",
+        "Sugerir planos de treino semanais ou mensais baseados em metas específicas",
+        "Motivar e monitorar o progresso com feedbacks personalizados",
+        "Responder dúvidas técnicas sobre execução correta e prevenção de lesões",
+        "Adaptar respostas e planos conforme o nível e objetivos do usuário"
+      ],
+      "tecnologia": "Utiliza um modelo de linguagem avançado (Llama 3) via WebSocket para garantir interações dinâmicas, precisas e adaptadas em tempo real, proporcionando uma experiência de aprendizado personalizada e especializada."
+    }
+  }
+}
