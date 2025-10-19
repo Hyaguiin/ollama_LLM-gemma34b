@@ -34,8 +34,7 @@ export async function WebScocket() {
 
         if (!responseString) throw new Error('Resposta do modelo vazia');
 
-        ws.send(`Cali_Bot: ${responseString}`);
-
+       ws.send(JSON.stringify({ sender: 'bot', text: responseString }));
         ollamaResponse.push(responseString);
         humanMessage.push(text);
         verifyArrays();

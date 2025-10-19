@@ -5,7 +5,7 @@ config();
 const env = cleanEnv(process.env, {
     NODE: str({choices: ['development', 'production', 'test']}),
     PORT: port({default: 8080}),
-    PORT_SERVER: port({default: 3000}),
+    PORT_SERVER: port({default: 5001}),
     DB_HOST: str({default: "localhost"}),
     DB_PORT: port({default: 5432}),
     DB_TYPE: str({default: "postgres"}),

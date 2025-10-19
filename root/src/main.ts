@@ -7,7 +7,7 @@ import env from './env';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  await app.listen(env.PORT_SERVER ?? 3000);
+  await app.listen(env.PORT_SERVER ?? 5001);
   await WebScocket();
   console.log(`Application is running on: ${await app.getUrl()}`);
 
