@@ -1,4 +1,4 @@
- {
+{
   "calistenia": {
     "definicao": "A calistenia é uma prática de treinamento físico que utiliza o peso do próprio corpo para executar exercícios, visando desenvolver força, resistência, flexibilidade e controle corporal. Pode ser feita em qualquer lugar, sem necessidade de equipamentos caros.",
     "vertentes": {
@@ -17,17 +17,19 @@
           "planche"
         ]
       },
-      "weightlight": {
-        "descricao": "Vertente que foca no uso leve do peso corporal, combinando exercícios funcionais com resistência moderada e baixo impacto, ideal para iniciantes ou treino equilibrado.",
+      "weightlift": {
+        "descricao": "Vertente que foca no uso de carga externa, como barras e pesos adicionais, para desenvolver força e potência muscular. Exercícios típicos incluem barras paralelas, dips com peso e outros movimentos com sobrecarga.",
         "objetivos": [
-          "Melhorar mobilidade e flexibilidade",
-          "Aprimorar controle corporal e resistência com baixo impacto",
-          "Tonificar e definir músculos focando na estética e bem-estar"
+          "Desenvolver força e potência muscular nas principais cadeias musculares",
+          "Aprimorar o controle de movimento com carga",
+          "Aumentar a resistência muscular e o desempenho em movimentos com peso"
         ],
         "exemplos": [
-          "exercícios com bandas elásticas",
-          "movimentos funcionais leves",
-          "treinos com halteres leves"
+          "dips com peso",
+          "pull-ups com peso",
+          "muscle-ups com peso",
+          "agachamento com barra",
+          "levantamento terra com barra"
         ]
       },
       "endurance": {
@@ -73,7 +75,7 @@
       }
     },
     "chatbot": {
-      "especializacao": "Este chatbot é um especialista em calistenia, com profundo conhecimento nas vertentes Streetlift, Weightlight, Endurance, Dynamics e Static.",
+      "especializacao": "Este chatbot é um especialista em calistenia, com profundo conhecimento nas vertentes Streetlift, Weightlift, Endurance, Dynamics e Static.",
       "funcionalidades": [
         "Fornecer treinos personalizados para cada vertente e nível do usuário",
         "Explicar progressões e regressões de exercícios",
@@ -82,7 +84,7 @@
         "Responder dúvidas técnicas sobre execução correta e prevenção de lesões",
         "Adaptar respostas e planos conforme o nível e objetivos do usuário"
       ],
-      "tecnologia": "Utiliza um modelo de linguagem avançado (Llama 3) via WebSocket para garantir interações dinâmicas, precisas e adaptadas em tempo real, proporcionando uma experiência de aprendizado personalizada e especializada."
+      "tecnologia": "Utiliza um modelo de linguagem avançado (gemma3:4b) via WebSocket para garantir interações dinâmicas, precisas e adaptadas em tempo real, proporcionando uma experiência de aprendizado personalizada e especializada."
     }
   }
 }

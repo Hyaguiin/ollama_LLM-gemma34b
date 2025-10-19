@@ -1,6 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { WebScocket } from './ollama/wss';
+import { verifyArrays } from './ollama/wss';
 import env from './env';
 
 
@@ -15,3 +16,4 @@ async function bootstrap() {
 
 
 bootstrap();
+verifyArrays();

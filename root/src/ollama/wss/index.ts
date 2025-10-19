@@ -1,8 +1,8 @@
 import { wss, ollamaClient } from '../index/index';
 import { prompt } from '../../context/prompt';
 import { extractText } from 'src/utils/extText';
-let humanMessage: string[] = [];
-let ollamaResponse: string[] = [];
+export let humanMessage: string[] = [];
+export let ollamaResponse: string[] = [];
 
 export async function WebScocket() {
   wss.on('connection', async function connectionClientOllama(ws) {
@@ -26,20 +26,19 @@ export async function WebScocket() {
 
         const inputPrompt = prompt(text);
 
-
         const response = await ollamaClient.invoke(['human', inputPrompt]);
 
         if (!response) throw new Error('No response from model');
-
 
         const responseString = extractText(response.content);
 
         if (!responseString) throw new Error('Resposta do modelo vazia');
 
-        ws.send(JSON.stringify({ response: responseString }));
+        ws.send(`Cali_Bot: ${responseString}`);
 
         ollamaResponse.push(responseString);
         humanMessage.push(text);
+        verifyArrays();
 
         return responseString;
       } catch (err) {
@@ -51,3 +50,19 @@ export async function WebScocket() {
     });
   });
 }
+
+export async function verifyArrays() {
+  console.log('\n======= Histórico de Conversa =======\n');
+
+  const length = Math.max(humanMessage.length, ollamaResponse.length);
+
+  for (let i = 0; i < length; i++) {
+    const user = humanMessage[i] ?? '[Mensagem humana ausente]';
+    const bot = ollamaResponse[i] ?? '[Resposta do bot ausente]';
+
+    console.log(`Usuário: ${user}\n`);
+    console.log(`Bot: ${bot}\n`);
+    console.log('+===============================+\n');
+  }
+}
+
