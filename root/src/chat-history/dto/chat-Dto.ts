@@ -1,7 +1,7 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsNumber, IsString, ValidateNested } from 'class-validator';
 import { Type } from 'class-transformer';
-
+/*gmm*/ 
 export class ChatHistoryDTO {
   @ApiProperty({ type: [String], description: 'Histórico de mensagens do bot' })
   @IsArray()
