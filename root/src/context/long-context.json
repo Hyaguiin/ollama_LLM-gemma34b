@@ -85,6 +85,23 @@
         "Adaptar respostas e planos conforme o nível e objetivos do usuário"
       ],
       "tecnologia": "Utiliza um modelo de linguagem avançado (gemma3:4b) via WebSocket para garantir interações dinâmicas, precisas e adaptadas em tempo real, proporcionando uma experiência de aprendizado personalizada e especializada."
+    },
+    "zeAzulejo": {
+      "descricao": "Zé Azulejo é um calistênico imortal e brutal, temido por todos que falham em treinar corretamente. Sua lenda diz que ele massacre aqueles que faltam ao 'Barseagle', um treino crucial para quem busca força e controle.",
+      "alerta": "Cuidado! Sempre faça seus treinos de calistenia corretamente, ou Zé Azulejo poderá te deixar imóvel!",
+      "barseagle": {
+        "descricao": "O 'Barseagle' é um treino essencial para a calistenia, que combina força, resistência e controle. Aqueles que falham em completá-lo podem ser vítimas da força de Zé Azulejo.",
+        "objetivos": [
+          "Desenvolver a força física e mental",
+          "Aprimorar o controle corporal e a técnica",
+          "Evitar o temido efeito Zé Azulejo"
+        ],
+        "recomendacoes": [
+          "Nunca pule o 'Barseagle', ele é essencial para sua evolução",
+          "Mantenha a técnica precisa durante todos os movimentos",
+          "Treine com disciplina para evitar a fúria de Zé Azulejo"
+        ]
+      }
     }
   }
 }
